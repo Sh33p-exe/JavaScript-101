@@ -1,0 +1,26 @@
+<html>																					
+	<head></head>
+		<title>Opdracht 3</title>
+	<body> 
+		<script>
+			alert ("Kies de hoeveelheid pizza's die u per grote wilt bestellen")
+			var smallPizza = prompt ("Hoeveel Small pizza's wilt u | Prijs p.s €3,-")
+			var mediumPizza = prompt ("Hoeveel medium pizza's wilt u | Prijs p.s €5-")
+			var largePizza = prompt ("Hoeveel large pizza's wilt u | Prijs p.s €7,-")
+
+			const SmallPizzaPrice = 3 
+			var smallPizzaTotal = SmallPizzaPrice * smallPizza
+
+			const MediumPizzaPrice = 5
+			var mediumPizzaTotal = MediumPizzaPrice * mediumPizza
+
+			const LargePizzaPrice = 7
+			var largePizzaTotal = LargePizzaPrice * largePizza
+
+
+			var totaalprijs = smallPizzaTotal + mediumPizzaTotal + largePizzaTotal
+			document.write("Hoeveelheid pizza's:" + "<br>" + "Small Pizza's  " + smallPizza + " | " + "€" + smallPizzaTotal + "<br>" + "Medium Pizza's" + mediumPizza + " | " + "€" + mediumPizzaTotal + "<br>" + "Large Pizza's: " + largePizza + " | " +"€" + largePizzaTotal + "<br>" + "--------------" + "<br>" + "€" + totaalprijs)
+
+		</script>
+	</body>	
+</html>
